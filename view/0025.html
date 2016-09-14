@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<html class="full">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../css/base.css">
+<title></title>
+</head>
+<body class="full body2">
+	<div class="top-box">
+		<div class="top-logo">内容获取</div>
+		<a class="top-nav top-nav-21" href="0020.html">在线爬取</a>
+		<a class="top-nav top-nav-22 checked" href="0025.html">EPG收录</a>		
+		<a class="top-nav top-nav-23" href="0040.html">CP内容引入</a>		
+		<a class="top-btn top-power" href="#"></a>
+		<a class="top-btn top-gear" href="#"></a>
+		<a class="top-btn top-home" href="#"></a>
+		<a class="top-btn top-refresh" href="#"></a>
+		<span class="top-name">testtest</span>
+	</div>
+	<div class="menu-box">
+		<div class="menu-logo"><span>功能菜单</span></div>
+		<a href="0025.html" class="checked"><span>EPG频道管理</span></a>
+		<a href="0033.html"><span>EPG频道类型管理</span></a>
+		<a href="0037.html"><span>EPG事件类型管理</span></a>
+	</div>
+	<div class="content">
+		<div class="content-info">
+			<a href="0025.html">EPG收录</a> > <a href="0025.html">EPG频道管理</a>
+		</div>
+		<div class="ctrl-box clearfix">
+			<a href="0029.html" class="ctrl-add icon btn">新增</a>
+			<div class="ctrl-del icon btn">删除</div>
+			<div class="ctrl-rel icon btn">发布</div>
+			<div class="ctrl-cancel icon btn">撤销</div>
+			<input type="text" placeholder="频道ID 频道名称">
+			<select>
+				<option>发布状态</option>
+				<option>已发布</option>
+				<option>未发布</option>
+			</select>
+			<select>
+				<option>频道类型</option>
+				<option>类型1</option>
+				<option>类型2</option>
+			</select>
+			<select>
+				<option>频道属性</option>
+				<option>属性1</option>
+				<option>属性2</option>
+			</select>
+			<div class="ctrl-search btn" title="搜索"></div>
+			<div class="ctrl-reset btn" title="重置"></div>
+		</div>
+		<table>
+			<tbody>
+				<tr>
+					<th><input type="checkbox" class="checkall"></th>
+					<th>频道ID</th>
+					<th>频道名称</th>
+					<th>频道类型</th>
+					<th>高清标识</th>
+					<th>付费标识</th>
+					<th>频点</th>
+					<th>DVBTSID</th>
+					<th>播放地址</th>
+					<th>发布状态</th>
+					<th>操作</th>
+				</tr>
+				<tr class="fold-row">
+					<td><input type="checkbox" class="checkone"></td>
+					<td>234</td>
+					<td>BTV文艺</td>
+					<td>BTV文艺</td>
+					<td>北京频道</td>
+					<td>标清</td>
+					<td>免费</td>
+					<td>01</td>
+					<td class="epg-addr">{"MAIN":"http://hls.yun.gehua.net.cn:8088/live/BTV2.m3u8","800K":"http://hls.yun.gehua.net.cn:8088/live/BTV2_800.m3u8","1200K":"http://hls.yun.gehua.net.cn:8088/live/BTV2_1200.m3u8"}</td>
+					<td>发布</td>
+					<td>
+						<div class="fold-ctrl clearfix">
+							<div class="fold-up" title="发布"></div>
+							<a class="fold-edit" title="编辑" href="0025-edit.html"></a>
+						</div>
+					</td>
+				</tr>
+				<tr class="fold-row">
+					<td><input type="checkbox" class="checkone"></td>
+					<td>234</td>
+					<td>BTV文艺</td>
+					<td>BTV文艺</td>
+					<td>北京频道</td>
+					<td>标清</td>
+					<td>免费</td>
+					<td>01</td>
+					<td class="epg-addr">{"MAIN":"http://hls.yun.gehua.net.cn:8088/live/BTV2.m3u8","800K":"http://hls.yun.gehua.net.cn:8088/live/BTV2_800.m3u8","1200K":"http://hls.yun.gehua.net.cn:8088/live/BTV2_1200.m3u8"}</td>
+					<td>发布</td>
+					<td>
+						<div class="fold-ctrl clearfix">
+							<div class="fold-up" title="发布"></div>
+							<a class="fold-edit" title="编辑" href="0025-edit.html"></a>
+						</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<div id="pagination" class="pagination clearfix">
+			<span class="current prev">上一页</span>
+			<span class="current">1</span>
+			<a href="#">2</a>
+			<a href="#">3</a>
+			<a href="#">4</a>
+			<span>...</span>
+			<a href="#">8</a>
+			<a href="#" class="next">下一页</a>
+			<i class="btn">确定</i>
+			<input type="text" class="page-size" value="6">
+			<i style="margin-left:10px;">每页显示：</i>
+			<i>条记录</i>
+			<i class="page-total">100</i>
+			<i>共</i>
+		</div>
+	</div>
+	<div class="float-box trans1 clearfix">
+		<div class="shade"></div>
+		<div class="float-title">
+			<div class="shade"></div>
+			<span>CMP</span>
+		</div>
+		<div class="float-wrap full"> <a href="#">产品网关</a>
+			<a href="0003.html">系统管理</a>
+			<a href="0170.html">统计中心</a>
+			<a href="0161.html">版权管理</a>
+			<a href="0113.html">内容管理</a>
+			<a href="0020.html" class="checked">内容获取</a>
+			<a href="0043.html">聚合元数据管理</a>
+		</div>		
+	</div>
+</body>
+<script src="../js/jq.min.js"></script>
+<script src="../js/require.min.js" data-main="../js/main.js" id="page-name" data-page-name="0025"></script>
+</html>

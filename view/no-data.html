@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html class="full">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../css/base.css">
+<title></title>
+</head>
+<body class="full body5">
+	<div class="top-box">
+		<div class="top-logo">统计中心</div>
+		<a class="top-nav top-nav-70" href="0170.html">全局统计概况</a>
+		<a class="top-nav top-nav-71 checked" href="0171.html">内容生产统计</a>
+		<a class="top-nav top-nav-72" href="0178.html">爬虫数据统计</a>
+		<a class="top-nav top-nav-73" href="0181.html">版权统计</a>
+		<a class="top-btn top-power" href="#"></a>
+		<a class="top-btn top-gear" href="#"></a>
+		<a class="top-btn top-home" href="#"></a>
+		<a class="top-btn top-refresh" href="#"></a>
+		<span class="top-name">testtest</span>
+	</div>
+	<div class="menu-box">
+		<div class="menu-logo"><span>功能菜单</span></div>
+		<a href="0171.html" class="checked"><span>内容导入统计</span></a>
+		<a href="0172.html"><span>聚合元数据及资产绑定</span></a>
+		<a href="0173.html"><span>媒资转码汇总统计</span></a>
+		<a href="0174.html"><span>媒资数据转码趋势</span></a>
+		<a href="0175.html"><span>内容发布统计报表</span></a>
+		<a href="0176.html"><span>内容审核统计报表</span></a>
+		<a href="0177.html"><span>内容缺失告警统计</span></a>
+	</div>
+	<div class="content">
+		<div class="content-info">
+			<a href="0171.html">内容生产统计</a> > <a href="0171.html">内容导入统计</a>
+		</div>
+		<ul class="sta-tri clearfix">
+			<li>
+				<p>内容导入</p>
+				<p>12,983</p>
+			</li>
+			<li>
+				<p>导入成功</p>
+				<p>12,983</p>
+			</li>
+			<li>
+				<p>导入失败</p>
+				<p>12,983</p>
+			</li>
+		</ul>
+		<div class="ctrl-box sta-ctrl clearfix">
+			<div class="ctrl-today btn">今天</div>
+			<div class="ctrl-yester btn">昨天</div>
+			<div class="ctrl-seven btn" style="width:120px;">最近7天</div>
+			<div class="ctrl-thirty btn" style="width:120px;">最近30天</div>
+			<input type="text" placeholder="开始日期">
+			<input type="text" placeholder="结束日期">
+			<select>
+				<option>导入来源</option>
+				<option>选项1</option>
+				<option>选项2</option>
+			</select>
+			<div class="ctrl-search btn" title="搜索"></div>
+		</div>
+		<div class="sta-chart" id="echarts">
+			<div class="sta-nodata">所选时间段内没有响应数据，请选择其他时间</div>
+		</div>
+	</div>
+	<div class="float-box trans1 clearfix">
+		<div class="shade"></div>
+		<div class="float-title">
+			<div class="shade"></div>
+			<span>CMP</span>
+		</div>
+		<div class="float-wrap full"> <a href="#">产品网关</a>
+			<a href="0003.html">系统管理</a>
+			<a href="0170.html" class="checked">统计中心</a>
+			<a href="0161.html">版权管理</a>
+			<a href="0113.html">内容管理</a>
+			<a href="0020.html">内容获取</a>
+			<a href="0043.html">聚合元数据管理</a>
+		</div>		
+	</div>
+</body>
+<script src="http://echarts.baidu.com/build/dist/echarts-all.js"></script>
+<script src="../js/jq.min.js"></script>
+<script src="../js/require.min.js" data-main="../js/main.js" id="page-name" data-page-name="no-data"></script>
+</html>

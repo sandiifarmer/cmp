@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html class="full">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../css/base.css">
+<title></title>
+</head>
+<body class="full body6">
+	<div class="top-box">
+		<div class="top-logo">系统管理</div>
+		<a class="top-nav top-nav-11 checked" href="0003.html">角色权限管理</a>
+		<a class="top-nav top-nav-12" href="0018.html">系统日志管理</a>
+		<a class="top-btn top-power" href="#"></a>
+		<a class="top-btn top-gear" href="#"></a>
+		<a class="top-btn top-home" href="#"></a>
+		<a class="top-btn top-refresh" href="#"></a>
+		<span class="top-name">testtest</span>
+	</div>
+	<div class="menu-box">
+		<div class="menu-logo"><span>功能菜单</span></div>
+		<a href="0003.html"><span>角色管理</span></a>
+		<a href="0008.html" class="checked"><span>用户管理</span></a>
+		<a href="0013.html"><span>功能管理</span></a>
+	</div>
+	<div class="content">
+		<div class="content-info">
+			<a href="0003.html">角色权限管理</a> > <a href="0008.html">用户管理</a>
+		</div>
+		<div class="ctrl-box clearfix">
+			<a href="0009.html" class="ctrl-add icon btn">新增</a>
+			<div class="ctrl-del icon btn">删除</div>
+			<input type="text" placeholder="用户搜索">
+			<select style="width:120px;">
+				<option>请选择用户组</option>
+				<option>管理员</option>
+				<option>普通用户</option>
+			</select>
+			<div class="ctrl-search btn" title="搜索"></div>
+			<div class="ctrl-reset btn" title="重置"></div>
+		</div>
+		<table>
+			<tbody>
+				<tr>
+					<th><input type="checkbox" class="checkall"></th>
+					<th>用户名称</th>
+					<th>所属用户组</th>
+					<th>状态</th>
+					<th>操作</th>
+				</tr>
+				<tr>
+					<td><input type="checkbox" class="checkone"></td>
+					<td>admin</td>
+					<td>管理员</td>
+					<td>有效</td>
+					<td>
+						<div class="fold-ctrl clearfix">						
+							<a class="fold-edit" title="编辑" href="0010.html"></a>
+							<div class="fold-tick" title="启用"></div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" class="checkone"></td>
+					<td>admin</td>
+					<td>管理员</td>
+					<td>有效</td>
+					<td>
+						<div class="fold-ctrl clearfix">						
+							<a class="fold-edit" title="编辑" href="0010.html"></a>
+							<div class="fold-tick" title="启用"></div>
+						</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<div id="pagination" class="pagination clearfix">
+			<span class="current prev">上一页</span>
+			<span class="current">1</span>
+			<a href="#">2</a>
+			<a href="#">3</a>
+			<a href="#">4</a>
+			<span>...</span>
+			<a href="#">8</a>
+			<a href="#" class="next">下一页</a>
+			<i class="btn">确定</i>
+			<input type="text" class="page-size" value="6">
+			<i style="margin-left:10px;">每页显示：</i>
+			<i>条记录</i>
+			<i class="page-total">100</i>
+			<i>共</i>
+		</div>
+	</div>
+	<div class="float-box trans1 clearfix">
+		<div class="shade"></div>
+		<div class="float-title">
+			<div class="shade"></div>
+			<span>CMP</span>
+		</div>
+		<div class="float-wrap full"> <a href="#">产品网关</a>
+			<a href="0003.html" class="checked">系统管理</a>
+			<a href="0170.html">统计中心</a>
+			<a href="0161.html">版权管理</a>
+			<a href="0113.html">内容管理</a>
+			<a href="0020.html">内容获取</a>
+			<a href="0043.html">聚合元数据管理</a>
+		</div>		
+	</div>
+</body>
+<script src="../js/jq.min.js"></script>
+<script src="../js/require.min.js" data-main="../js/main.js" id="page-name" data-page-name="0008"></script>
+</html>

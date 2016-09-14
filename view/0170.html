@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html class="full">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../css/base.css">
+<title></title>
+</head>
+<body class="full body5">
+	<div class="top-box">
+		<div class="top-logo">统计中心</div>
+		<a class="top-nav top-nav-70 checked" href="0170.html">全局统计概况</a>
+		<a class="top-nav top-nav-71" href="0171.html">内容生产统计</a>
+		<a class="top-nav top-nav-72" href="0178.html">爬虫数据统计</a>
+		<a class="top-nav top-nav-73" href="0181.html">版权统计</a>
+		<a class="top-btn top-power" href="#"></a>
+		<a class="top-btn top-gear" href="#"></a>
+		<a class="top-btn top-home" href="#"></a>
+		<a class="top-btn top-refresh" href="#"></a>
+		<span class="top-name">testtest</span>
+	</div>
+	<div class="menu-box">
+		<div class="menu-logo"><span>功能菜单</span></div>
+		<a href="0170.html" class="checked"><span>全局统计概况</span></a>
+	</div>
+	<div class="content">
+		<div class="content-info">
+			<a href="0170.html">全局统计概况</a> > <a href="0170.html">全局统计概况</a>
+		</div>
+		<div class="ctrl-box sta-ctrl clearfix">
+			<input type="text" class="calendar" placeholder="开始日期" onclick="WdatePicker();">
+			<input type="text" class="calendar" placeholder="结束日期" onclick="WdatePicker();">
+			<div class="ctrl-search btn" title="搜索"></div>
+		</div>
+		<p class="sta-p">概况统计</p>
+		<ul class="sta-tri clearfix">
+			<li class="sta-four">
+				<p>聚合元数据</p>
+				<p>12,983</p>
+				<p>昨日：12,983</p>
+				<i class="icon-data"></i>
+			</li>
+			<li class="sta-four">
+				<p>视频总数</p>
+				<p>12,983</p>
+				<p>昨日：12,983</p>
+				<i class="icon-count"></i>
+			</li>
+			<li class="sta-four">
+				<p>视频总大小</p>
+				<p>12,983<span class="blue">B</span></p>
+				<p>昨日：12,983</p>
+				<i class="icon-size"></i>
+			</li>
+			<li class="sta-four">
+				<p>视频总时长</p>
+				<p>12,983<span class="blue">h</span></p>
+				<p>昨日：12,983</p>
+				<i class="icon-time"></i>
+			</li>
+		</ul>
+		<p class="sta-p">视频统计</p>
+		<div class="sta-chart sta-out clearfix">
+			<div class="sta-in" id="echarts1"></div>
+			<div class="sta-in">
+				<iframe width="100%" src="0170-bar.html" style="height:280px;"></iframe>
+			</div>
+		</div>
+	</div>
+	<div class="float-box trans1 clearfix">
+		<div class="shade"></div>
+		<div class="float-title">
+			<div class="shade"></div>
+			<span>CMP</span>
+		</div>
+		<div class="float-wrap full"> <a href="#">产品网关</a>
+			<a href="0003.html">系统管理</a>
+			<a href="0170.html" class="checked">统计中心</a>
+			<a href="0161.html">版权管理</a>
+			<a href="0113.html">内容管理</a>
+			<a href="0020.html">内容获取</a>
+			<a href="0043.html">聚合元数据管理</a>
+		</div>		
+	</div>
+</body>
+<script src="http://echarts.baidu.com/build/dist/echarts-all.js"></script>
+<script src="../js/jq.min.js"></script>
+<script src="../js/require.min.js" data-main="../js/main.js" id="page-name" data-page-name="0170"></script>
+<script src="../js/WdatePicker.js"></script>
+</html>
